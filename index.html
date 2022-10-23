@@ -1,34 +1,90 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | MUEBLES GF</title>    
-    <link rel="shortcut icon" href="./assets/img/sofa.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Boot|Inicio</title>
 </head>
+
 <body>
     <div class="formatoCentral">
 
+
         <header>
-            <nav>
-                <ul class="navflex">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./pages/somos.html">Quienes Somos</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/escuela.html">Escuela</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/indexboot.html">Bootlandia</a></li>
+
+            <!-- Example Code -->
+
+
+
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <h3>Muebles GF || Calidad en Muebles</h3>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">                        
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                    <div class="container-fluid">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Muebles GF</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./pages/somos.html">Somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="./pages/productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./pages/escuela.html">Escuela</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="./pages/contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./inicioAntiguo.html">Antiguo</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Acción</a></li>
+                                        <li><a class="dropdown-item" href="#">Otra acción</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                            <div>
+                                <img src="../assets/img/mario.jpg" alt="mario">
+                            </div>
+                        </div>
+                    </div>
+                
             </nav>
-            <div>
-                <h1>MUEBLES GF</h1>
-                <h2>Calidad en muebles </h2>
-            </div>
+            <!-- End Example Code -->
         </header>
         <main>
             <section>
@@ -36,7 +92,8 @@
                     <p>
                         En Muebles GF entregamos toda la dedicación que nuestros artesanos depositan en cada mueble
                         fabricado en base a su vasta experiencia obtenida de generación en generación. Cada mueble que
-                        escojas, asegura ser único y especial. Construido con las mas nobles maderas, podrás disfrutar de la
+                        escojas, asegura ser único y especial. Construido con las mas nobles maderas, podrás disfrutar
+                        de la
                         elegancia y comodidad que solo un Mueble GF te puede entregar.
                         Te invitamos a conocer nuestras fabricas escuelas, donde podrás aprender junto a nosotros del
                         maravilloso arte de la carpintería.
@@ -45,33 +102,35 @@
                     </p>
                 </div>
                 <div class="centrar">
-                    <img class="foto" src="./assets/img/trabajo_1.jpg">
-                </div> 
+                    <img class="foto" src="../assets/img/trabajo_1.jpg">
+                </div>
             </section>
         </main>
         <footer>
             <div>
                 <ul class="menuFooter">
                     <li> <a class="btnFooter" href="http://www.instagram.com"><img class="chico"
-                                src="./assets/img/instagram.png" alt=""></a></li>
+                                src="../assets/img/instagram.png" alt=""></a></li>
                     <li> <a class="btnFooter" href="http://www.facebook.com"><img class="chico"
-                                src="./assets/img/facebook.png" alt=""></a></li>
+                                src="../assets/img/facebook.png" alt=""></a></li>
                     <li> <a class="btnFooter" href="http://www.twitter.com"><img class="chico"
-                                src="./assets/img/twitter.png" alt=""></a></li>
-                    <li> <a class="btnFooter" href="http://www.tiktok.com"><img class="chico" src="./assets/img/tiktok.png"
-                                alt=""></a></li>
+                                src="../assets/img/twitter.png" alt=""></a></li>
+                    <li> <a class="btnFooter" href="http://www.tiktok.com"><img class="chico"
+                                src="../assets/img/tiktok.png" alt=""></a></li>
                     <li> <a class="btnFooter"
                             href="https://api.whatsapp.com/send?text=Mira que lindos muebles hay en Muebles GF"><img
-                                class="chico" src="./assets/img/wsp.png" alt=""></a></li>
+                                class="chico" src="../assets/img/wsp.png" alt=""></a></li>
                 </ul>
             </div>
             <div class="logoGf">
                 <p>&copy; Derechos Reservados</p>
             </div>
         </footer>
+    </div>
 
-    </div>    
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
