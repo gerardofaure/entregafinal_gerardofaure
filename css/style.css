@@ -125,7 +125,10 @@ header h2 {
 .fotoSerena {
     grid-area: fotoSerena;
 }
-
+.dropdown-menu{
+    font-size: small;
+    font-weight: bold;
+}
 .dirSerena {
     grid-area: dirSerena;
     font-size: 0.8rem;
@@ -225,9 +228,9 @@ footer {
 }
 
 .fotoProd {
+    grid-area: doscolprod;
     text-align: center;
 }
-
 
 
 
@@ -285,6 +288,9 @@ footer {
         background-color: rgba(247, 125, 3, 0.219);
         color: black;
     }
+    .card {
+        margin-bottom: 4rem;
+    }
 
     nav {
         background-color: white;
@@ -325,6 +331,7 @@ footer {
     .medio {
         width: 70%;
     }
+
     #carouselExampleControls {
         padding: 0rem 10rem;
     }
@@ -363,8 +370,15 @@ footer {
     .mainSomos {
         display: grid;
         grid-area: cuerpo;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0);
+        grid-template-areas: "uno dos tres";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 
+    .tarjeta {
+        display: grid;
+        grid-area: dos;
     }
 
     .sectionSomos {
@@ -377,6 +391,15 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr 2fr;
 
+    }
+    .w18 {
+        width: 18rem;
+    }
+    .mainProductos {
+        grid-area: cuerpo;
+                grid-template-areas: "unocolprod doscolprod trescolprod";
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: auto;
     }
 
     .txtSomos {
@@ -492,8 +515,7 @@ footer {
 
     footer {
         grid-area: piePagina;
-        background-color: rgba(241, 241, 241, 0.486);
-        bottom: 0;
+        background-color: rgba(241, 241, 241, 0);
     }
 
     .menuFooter {
@@ -504,6 +526,7 @@ footer {
         text-decoration: none;
         margin-right: 2rem;
     }
+
 
     .btnFooter {
         display: flex;
