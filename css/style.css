@@ -57,7 +57,9 @@ nav a:hover {
 .chico {
     width: 35px;
 }
-
+.medio{
+    width: 50%;
+}
 .foto {
     width: 100%;
     border-radius: 2rem;
@@ -265,8 +267,11 @@ footer {
         text-decoration: none;
     }
     /*hoover para el titulo, no sirve para nada*/
+    h3 {
+        opacity: 50%;
+    }
     h3:hover{
-        background-color: darkred;
+        opacity: 100%;
     }
 
     nav a:hover {
@@ -295,6 +300,9 @@ footer {
     .chico {
         width: 35px;
     }
+        .medio {
+            width: 70%;
+        }
 
     .foto {
         width: 90%;
@@ -440,7 +448,7 @@ footer {
         border-radius: 7%;
         display: block;
         color: #fff;
-        background-color: rgb(128, 64, 0);
+        background-color:rgb(128, 64, 0);
     }
 
     form input[type="submit"]:hover {
@@ -513,11 +521,7 @@ footer {
         45% {
             color: grey;
         }
-
+        
         80% {
             color: black;
-        }
-    }
-
-
-}
+        }}}
