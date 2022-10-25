@@ -20,6 +20,7 @@ header {
     grid-area: menuNavegar;
     background-color: white;
 }
+
 /*esto ya no sirve en bootlandia*/
 .navflex {
     font-size: 1rem;
@@ -57,9 +58,11 @@ nav a:hover {
 .chico {
     width: 35px;
 }
-.medio{
+
+.medio {
     width: 50%;
 }
+
 .foto {
     width: 100%;
     border-radius: 2rem;
@@ -233,6 +236,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     /*TODO PARA FORMATO PORTATIL*/
+
     .formatoCentral {
         display: grid;
         grid-template-areas: "menuNavegar"
@@ -240,14 +244,15 @@ footer {
             "piePagina";
         grid-template-columns: 1fr;
         grid-template-rows: 1fr auto 1fr;
-        background-image: linear-gradient(to right, rgb(230, 197, 164), white);
+        background-color: rgba(241, 241, 241, 0.486);
     }
 
     header {
         grid-area: menuNavegar;
-        background-image: linear-gradient(to right, rgb(230, 197, 164), white);
+        background-color: rgba(241, 241, 241, 0);
     }
-/*esto ya no sirve para bootlandia*/
+
+    /*esto ya no sirve para bootlandia*/
     .navflex {
         font-size: 1rem;
         display: flex;
@@ -257,40 +262,56 @@ footer {
         padding-right: 3rem;
         align-content: stretch;
     }
-    
+
     nav ul li a {
         background-color: rgb(230, 197, 164);
-        color: whitesmoke;
         padding: 1rem;
         margin-inline-start: 5px;
         border-radius: 1rem;
         text-decoration: none;
     }
+
     /*hoover para el titulo, no sirve para nada*/
     h3 {
         opacity: 50%;
     }
-    h3:hover{
+
+    h3:hover {
         opacity: 100%;
     }
 
     nav a:hover {
         transition: 0.5s;
-        background-image: linear-gradient(to right, rgb(224, 176, 129), white);
+        background-color: rgba(247, 125, 3, 0.219);
         color: black;
     }
 
     nav {
-        background-image: linear-gradient(to right, rgb(230, 197, 164), white);
+        background-color: white;
     }
+
     .txtInicio {
         grid-area: cuerpo;
         font-size: 1.5rem;
         color: rgb(128, 64, 0);
-        padding: 2rem 10rem;
+        padding: 0rem 6rem;
         margin-top: 4rem;
         line-height: 1.8rem;
         justify-content: center;
+    }
+
+    #imagen-cambiante {
+        width: 22rem;
+        height: 30rem;
+        background: url(../assets/img/carpintero.png) no-repeat;
+    }
+
+    #imagen-cambiante:hover {
+
+        background: url(../assets/img/carpinteroColor.png) no-repeat;
+        transition: 2s ease-in-out;
+        opacity: 40%;
+
     }
 
     .video {
@@ -300,9 +321,13 @@ footer {
     .chico {
         width: 35px;
     }
-        .medio {
-            width: 70%;
-        }
+
+    .medio {
+        width: 70%;
+    }
+    #carouselExampleControls {
+        padding: 0rem 10rem;
+    }
 
     .foto {
         width: 90%;
@@ -338,31 +363,30 @@ footer {
     .mainSomos {
         display: grid;
         grid-area: cuerpo;
-        background-image: linear-gradient(to right, rgb(201, 163, 126), white);
+        background-color: white;
 
     }
 
     .sectionSomos {
         display: grid;
-        background-color: white;
+        background-color: rgba(241, 241, 241, 0.486);
         grid-template-areas: "txtSomos   txtSomos    txtSomos"
             "fotoMatriz dirMatriz   txtMatriz"
             "fotoSerena dirSerena   txtSerena"
             "fotoValpo  dirValpo    txtValpo";
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr 2fr;
-        background-image: linear-gradient(to right, rgb(230, 197, 164), white);
+
     }
 
     .txtSomos {
         grid-area: txtSomos;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0);
         font-size: 2.5rem;
         color: rgb(128, 64, 0);
         padding: 1rem;
         text-align: justify;
         margin: 5rem 0;
-        background-image: linear-gradient(to left, rgb(230, 197, 164), white);
     }
 
     .fotoMatriz {
@@ -435,7 +459,7 @@ footer {
         padding: 3% 5%;
         border: 1px solid #f6f6f6;
         border-radius: 5%;
-        background-color: white;
+        background-color: rgba(241, 241, 241, 0.486);
         margin: 3% 0%;
         display: inline-block;
     }
@@ -448,7 +472,7 @@ footer {
         border-radius: 7%;
         display: block;
         color: #fff;
-        background-color:rgb(128, 64, 0);
+        background-color: rgb(128, 64, 0);
     }
 
     form input[type="submit"]:hover {
@@ -468,7 +492,7 @@ footer {
 
     footer {
         grid-area: piePagina;
-        background-image: linear-gradient(to right, rgb(230, 197, 164), white);
+        background-color: rgba(241, 241, 241, 0.486);
         bottom: 0;
     }
 
@@ -509,7 +533,7 @@ footer {
             color: black;
         }
 
-        
+
         35% {
             color: grey;
         }
@@ -521,7 +545,9 @@ footer {
         45% {
             color: grey;
         }
-        
+
         80% {
             color: black;
-        }}}
+        }
+    }
+}
