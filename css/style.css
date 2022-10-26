@@ -536,9 +536,19 @@ footer {
         display: flex;
         background-color: rgb(128, 64, 0);
     }
+    .btn {
+        border-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        color:rgb(128, 64, 0);
+    }
+    .btn:hover {
+        background-color:  rgb(128, 64, 0);
+        border-color: rgba(255, 255, 255, 0);
+    }
 
     footer a:hover {
         background-color: rgb(247, 125, 3);
+        font-weight: bold;
         transform: scale(1.4, 1.4);
         transition: 0.4s;
     }
