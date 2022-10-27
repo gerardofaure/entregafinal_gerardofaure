@@ -244,6 +244,26 @@ footer {
     text-align: center;
 }
 
+.btn {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(128, 64, 0);
+}
+
+.btn:visited {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(128, 64, 0);
+}
+
+#tarjSucursal {
+    background-color: rgb(128, 64, 0);
+}
+
+#letraSucursal {
+    color: rgb(128, 64, 0);
+}
+
 @media screen and (min-width: 768px) {
 
     /*TODO PARA FORMATO ESCRITORIO*/
@@ -540,17 +560,7 @@ footer {
         background-color: rgb(128, 64, 0);
     }
 
-    .btn {
-        border-color: rgba(255, 255, 255, 0);
-        background-color: rgba(255, 255, 255, 0);
-        color: rgb(128, 64, 0);
-    }
 
-    .btn:visited {
-        border-color: rgba(255, 255, 255, 0);
-        background-color: rgba(255, 255, 255, 0);
-        color: rgb(128, 64, 0);
-    }
 
     .btn:hover {
         background-color: rgb(128, 64, 0);
@@ -563,6 +573,18 @@ footer {
         font-weight: bold;
         transform: scale(1.4, 1.4);
         transition: 0.4s;
+    }
+
+    .btn {
+        border-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(128, 64, 0);
+    }
+
+    .btn:visited {
+        border-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(128, 64, 0);
     }
 
     #tarjSucursal {
