@@ -3,7 +3,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
 /*TODO PARA FORMATO MOBILE*/
 .formatoCentral {
     display: grid;
@@ -13,14 +12,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto 1fr;
     color: rgb(128, 64, 0);
-
 }
-
 header {
     grid-area: menuNavegar;
     background-color: white;
 }
-
 /*esto ya no sirve en bootlandia*/
 .navflex {
     font-size: 1rem;
@@ -31,7 +27,6 @@ header {
     padding: 0rem;
     align-content: stretch;
 }
-
 nav ul li a {
     text-align: center;
     background-color: rgb(230, 197, 164);
@@ -41,11 +36,9 @@ nav ul li a {
     text-decoration: none;
     margin-top: 0.5rem;
 }
-
 nav a:hover {
     background-color: rgb(230, 197, 164);
 }
-
 .txtInicio {
     grid-area: cuerpo;
     font-size: 1.2rem;
@@ -54,41 +47,31 @@ nav a:hover {
     line-height: 1.8rem;
     text-align: justify;
 }
-
 .chico {
     width: 35px;
 }
-
 .medio {
     width: 50%;
 }
-
 .foto {
     width: 100%;
     border-radius: 2rem;
 }
-
 .centrar {
     text-align: center;
 }
-
 h1 {
     color: rgb(128, 64, 0);
     font-size: 1.5rem;
 }
-
 header h2 {
     color: rgb(128, 64, 0);
     font-size: 1rem;
 }
-
 .mainSomos {
     display: grid;
     grid-area: cuerpo;
-
 }
-
-
 .sectionSomos {
     display: grid;
     background-color: white;
@@ -99,7 +82,6 @@ header h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 2fr;
 }
-
 .txtSomos {
     grid-area: txtSomos;
     background-color: white;
@@ -108,21 +90,17 @@ header h2 {
     padding: 1rem;
     text-align: justify;
 }
-
 .fotoMatriz {
     grid-area: fotoMatriz;
 }
-
 .dirMatriz {
     grid-area: dirMatriz;
     font-size: 0.8rem;
 }
-
 .txtMatriz {
     grid-area: txtMatriz;
     font-size: 0.8rem;
 }
-
 .fotoSerena {
     grid-area: fotoSerena;
 }
@@ -134,26 +112,21 @@ header h2 {
     grid-area: dirSerena;
     font-size: 0.8rem;
 }
-
 .txtSerena {
     grid-area: txtSerena;
     font-size: 0.8rem;
 }
-
 .fotoValpo {
     grid-area: fotoValpo;
 }
-
 .dirValpo {
     grid-area: dirValpo;
     font-size: 0.8rem;
 }
-
 .txtValpo {
     grid-area: txtValpo;
     font-size: 0.8rem;
 }
-
 .formu {
     width: 90%;
     padding: 5%;
@@ -161,13 +134,11 @@ header h2 {
     margin: auto;
     background-color: #ccc;
 }
-
 form label {
     width: 40%;
     font-weight: bold;
     display: inline-block;
 }
-
 form input[type="text"],
 form input[type="email"] {
     width: 55%;
@@ -178,7 +149,6 @@ form input[type="email"] {
     margin: 3% 0%;
     display: inline-block;
 }
-
 form input[type="submit"] {
     width: 100%;
     padding: 1rem 2rem;
@@ -189,11 +159,9 @@ form input[type="submit"] {
     color: #fff;
     background-color: rgb(128, 64, 0);
 }
-
 form input[type="submit"]:hover {
     cursor: pointer;
 }
-
 textarea {
     width: 100%;
     height: 10rem;
@@ -204,13 +172,11 @@ textarea {
     resize: vertical;
     display: block;
 }
-
 footer {
     grid-area: piePagina;
     background-color: white;
     bottom: 0;
 }
-
 .menuFooter {
     display: flex;
     flex-direction: row;
@@ -219,7 +185,6 @@ footer {
     text-decoration: none;
     margin-right: 2rem;
 }
-
 .btnFooter {
     display: flex;
     border-radius: 5rem;
@@ -227,20 +192,12 @@ footer {
     display: flex;
     background-color: rgb(128, 64, 0);
 }
-
 .fotoProd {
     grid-area: doscolprod;
     text-align: center;
 }
-
-
-
-
-
 @media screen and (min-width: 768px) {
-
     /*TODO PARA FORMATO PORTATIL*/
-
     .formatoCentral {
         display: grid;
         grid-template-areas: "menuNavegar"
@@ -250,12 +207,10 @@ footer {
         grid-template-rows: 1fr auto 1fr;
         background-color: rgba(241, 241, 241, 0.486);
     }
-
     header {
         grid-area: menuNavegar;
         background-color: rgba(241, 241, 241, 0);
     }
-
     /*esto ya no sirve para bootlandia*/
     .navflex {
         font-size: 1rem;
@@ -266,7 +221,6 @@ footer {
         padding-right: 3rem;
         align-content: stretch;
     }
-
     nav ul li a {
         background-color: rgb(230, 197, 164);
         padding: 1rem;
@@ -274,16 +228,13 @@ footer {
         border-radius: 1rem;
         text-decoration: none;
     }
-
     /*hoover para el titulo, no sirve para nada*/
     h3 {
         opacity: 50%;
     }
-
     h3:hover {
         opacity: 100%;
     }
-
     nav a:hover {
         transition: 0.5s;
         background-color: rgba(247, 125, 3, 0.219);
@@ -292,11 +243,9 @@ footer {
     .card {
         margin-bottom: 4rem;
     }
-
     nav {
         background-color: white;
     }
-
     .txtInicio {
         grid-area: cuerpo;
         font-size: 1.5rem;
@@ -306,53 +255,41 @@ footer {
         line-height: 1.8rem;
         justify-content: center;
     }
-
     #imagen-cambiante {
         width: 22rem;
         height: 30rem;
         background: url(../assets/img/carpintero.png) no-repeat;
     }
-
     #imagen-cambiante:hover {
-
         background: url(../assets/img/carpinteroColor.png) no-repeat;
         transition: 2s ease-in-out;
         opacity: 40%;
-
     }
-
     .video {
         width: 20%;
     }
-
     .chico {
         width: 35px;
     }
-
     .medio {
         width: 70%;
     }
-
     #carouselExampleControls {
         padding: 0rem 10rem;
     }
-
     .foto {
         width: 90%;
         border-radius: 2rem;
         text-align: center;
     }
-
     .centrar {
         text-align: center;
     }
-
     .fotoProd {
         text-align: center;
         width: 40%;
         margin: 1rem 30rem;
     }
-
     h1 {
         color: rgb(128, 64, 0);
         font-size: 1.5rem;
@@ -360,14 +297,12 @@ footer {
         margin-right: 10rem;
         margin-top: 1rem;
     }
-
     header h2 {
         color: rgb(128, 64, 0);
         font-size: 1rem;
         text-align: right;
         margin-right: 10rem;
     }
-
     .mainSomos {
         display: grid;
         grid-area: cuerpo;
@@ -376,12 +311,10 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
-
     .tarjeta {
         display: grid;
         grid-area: dos;
     }
-
     .sectionSomos {
         display: grid;
         background-color: rgba(241, 241, 241, 0.486);
@@ -391,7 +324,6 @@ footer {
             "fotoValpo  dirValpo    txtValpo";
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr 2fr;
-
     }
     .w18 {
         width: 18rem;
@@ -402,7 +334,6 @@ footer {
                     grid-template-columns: repeat(3,1fr);
                     grid-template-rows: auto;
     }
-
     .txtSomos {
         grid-area: txtSomos;
         background-color: rgba(255, 255, 255, 0);
@@ -412,57 +343,45 @@ footer {
         text-align: justify;
         margin: 5rem 0;
     }
-
     .fotoMatriz {
         grid-area: fotoMatriz;
         width: 40%;
         margin-left: 10rem;
     }
-
     .fotoSerena {
         grid-area: fotoSerena;
         width: 40%;
         margin-left: 10rem;
     }
-
     .fotoValpo {
         grid-area: fotoValpo;
         width: 40%;
         margin-left: 10rem;
     }
-
     .dirMatriz {
         grid-area: dirMatriz;
         font-size: 1.8rem;
     }
-
     .dirSerena {
         grid-area: dirSerena;
         font-size: 1.8rem;
     }
-
     .dirValpo {
         grid-area: dirValpo;
         font-size: 1.8rem;
     }
-
     .txtSerena {
         grid-area: txtSerena;
         font-size: 1.8rem;
     }
-
     .txtMatriz {
         grid-area: txtMatriz;
         font-size: 1.8rem;
     }
-
-
-
     .txtValpo {
         grid-area: txtValpo;
         font-size: 1.8rem;
     }
-
     .formu {
         width: 35%;
         padding: 5%;
@@ -470,13 +389,11 @@ footer {
         margin: auto;
         background-color: #ccc;
     }
-
     form label {
         width: 40%;
         font-weight: bold;
         display: inline-block;
     }
-
     form input[type="text"],
     form input[type="email"] {
         width: 55%;
@@ -487,7 +404,6 @@ footer {
         margin: 3% 0%;
         display: inline-block;
     }
-
     form input[type="submit"] {
         width: 100%;
         padding: 1rem 2rem;
@@ -498,11 +414,9 @@ footer {
         color: #fff;
         background-color: rgb(128, 64, 0);
     }
-
     form input[type="submit"]:hover {
         cursor: pointer;
     }
-
     textarea {
         width: 100%;
         height: 10rem;
@@ -513,12 +427,10 @@ footer {
         resize: vertical;
         display: block;
     }
-
     footer {
         grid-area: piePagina;
         background-color: rgba(241, 241, 241, 0);
     }
-
     .menuFooter {
         display: flex;
         flex-direction: row;
@@ -527,8 +439,6 @@ footer {
         text-decoration: none;
         margin-right: 2rem;
     }
-
-
     .btnFooter {
         display: flex;
         border-radius: 5rem;
@@ -545,14 +455,12 @@ footer {
         background-color:  rgb(128, 64, 0);
         border-color: rgba(255, 255, 255, 0);
     }
-
     footer a:hover {
         background-color: rgb(247, 125, 3);
         font-weight: bold;
         transform: scale(1.4, 1.4);
         transition: 0.4s;
     }
-
     .logoGf {
         text-align: center;
         animation-name: un_efecto;
@@ -561,25 +469,19 @@ footer {
         animation-duration: 3s;
         animation-delay: 1s;
     }
-
     @keyframes un_efecto {
         1% {
             color: black;
         }
-
-
         35% {
             color: grey;
         }
-
         40% {
             color: white;
         }
-
         45% {
             color: grey;
         }
-
         80% {
             color: black;
         }
