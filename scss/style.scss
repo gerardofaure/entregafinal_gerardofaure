@@ -4,26 +4,26 @@
     box-sizing: border-box;
 }
 
-/*TODO PARA FORMATO MOBILE PRIMERO*/
+/*algo de nesting - 
+mobile first */
+
 header {
     grid-area: menuNavegar;
     background-color: white;
+
+    h2 {
+        color: rgb(128, 64, 0);
+        font-size: 1rem;
+    }
 }
 
-header h2 {
-    color: rgb(128, 64, 0);
-    font-size: 1rem;
-}
 
-nav ul li a {
-    text-align: center;
-    background-color: rgb(230, 197, 164);
-    color: whitesmoke;
-    margin-inline-start: 0px;
-    border-radius: 5rem;
-    text-decoration: none;
-    margin-top: 0.5rem;
-}
+
+/* todo el codigo css antiguo del proyecto solo fue copia*/
+
+/*TODO PARA FORMATO MOBILE PRIMERO*/
+
+
 
 nav a:hover {
     background-color: rgb(230, 197, 164);
@@ -82,6 +82,12 @@ footer {
     background-color: white;
     bottom: 0;
 }
+
+
+
+
+
+
 
 .formatoCentral {
     display: grid;
