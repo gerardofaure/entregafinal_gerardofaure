@@ -279,7 +279,6 @@ footer {
 
     nav a:hover {
         transition: 0.5s;
-        background-color: rgba(247, 125, 3, 0.219);
         color: black;
     }
 
@@ -351,7 +350,7 @@ footer {
     }
 
     footer a:hover {
-        background-color: white;
+        background-color: rgb(247, 125, 3);
         font-weight: bold;
         transform: scale(1.4, 1.4);
         transition: 0.4s;
@@ -534,13 +533,13 @@ footer {
         border-radius: 5rem;
         justify-content: center;
         display: flex;
-        background-color: white;
+        background-color: rgb(128, 64, 0);
     }
 
     .btn:hover {
-        background-color: white;
-        border-color: black;
-        color: black;
+        background-color: rgb(128, 64, 0);
+        border-color: rgb(255, 255, 255);
+        color: white;
     }
 
     .btn {
