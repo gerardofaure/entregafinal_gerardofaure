@@ -6,6 +6,14 @@
 
 /*algo de nesting - 
 mobile first */
+.nav-link {
+  margin: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 205, 154);
+  border-radius: 15%;
+}
+
 form input[type=text],
 form input[type=email] {
   width: 55%;
@@ -161,6 +169,10 @@ footer {
   font-size: 0.8rem;
 }
 
+.carousel-inner {
+  padding-top: 8rem;
+}
+
 .formu {
   width: 90%;
   padding: 5%;
@@ -214,6 +226,13 @@ footer {
 /*algo de nesting*/
 /*TODO PARA FORMATO ESCRITORIO*/
 @media screen and (min-width: 768px) {
+  .nav-link {
+    margin: 0.2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 205, 154);
+    border-radius: 15%;
+  }
   nav {
     background-color: white;
   }

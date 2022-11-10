@@ -6,6 +6,15 @@
 /*algo de nesting - 
 mobile first */
 
+.nav-link {
+
+    margin: 0.2rem;
+    font-weight:bold;
+    text-align: center;
+    background-color: $terciario;
+    border-radius: 15%;
+}
+
 form {
 
 
@@ -172,7 +181,9 @@ footer {
     grid-area: txtValpo;
     font-size: 0.8rem;
 }
-
+.carousel-inner {
+    padding-top: 8rem;
+}
 .formu {
     width: 90%;
     padding: 5%;
@@ -226,6 +237,15 @@ footer {
 /*algo de nesting*/
 /*TODO PARA FORMATO ESCRITORIO*/
 @media screen and (min-width: 768px) {
+
+    .nav-link {
+    
+            margin: 0.2rem;
+            font-weight: bold;
+            text-align: center;
+            background-color: $terciario;
+            border-radius: 15%;
+        }
 
     nav {
         background-color: $blanco;
@@ -584,6 +604,4 @@ footer {
 
         80% {
             color: black;
-        }
-    }
-}
+        }}}
