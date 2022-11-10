@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 10;
   padding: 0%;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ form input[type=text],
 form input[type=email] {
   width: 55%;
   padding: 3% 5%;
-  border: 1px solid #f6f6f6;
+  border: 1px solid white;
   border-radius: 5%;
   background-color: white;
   margin: 3% 0%;
@@ -23,7 +23,7 @@ form input[type=submit] {
   border: 0.2rem solid;
   border-radius: 7%;
   display: block;
-  color: #fff;
+  color: white;
   background-color: rgb(128, 64, 0);
 }
 form input[type=submit]:hover {
@@ -32,9 +32,9 @@ form input[type=submit]:hover {
 form textarea {
   width: 100%;
   height: 10rem;
-  border: 1rem solid #f6f6f6;
+  border: 1rem solid white;
   border-radius: 3px;
-  background-color: #f6f6f6;
+  background-color: white;
   margin: 1rem 0;
   resize: vertical;
   display: block;
@@ -264,7 +264,7 @@ footer {
 input[type=email] {
     width: 55%;
     padding: 3% 5%;
-    border: 1px solid #f6f6f6;
+    border: 1px solid white;
     border-radius: 5%;
     background-color: rgba(241, 241, 241, 0.486);
     margin: 3% 0%;
@@ -286,22 +286,16 @@ input[type=email] {
   textarea {
     width: 100%;
     height: 10rem;
-    border: 1rem solid #f6f6f6;
+    border: 1rem solid white;
     border-radius: 3px;
-    background-color: #f6f6f6;
+    background-color: white;
     margin: 1rem 0;
     resize: vertical;
     display: block;
   }
   footer {
     grid-area: piePagina;
-    background-color: rgba(241, 241, 241, 0);
-  }
-  footer :hover {
-    background-color: rgb(247, 125, 3);
-    font-weight: bold;
-    transform: scale(1.4, 1.4);
-    transition: 0.4s;
+    background-color: white;
   }
   .formatoCentral {
     display: grid;
@@ -454,7 +448,7 @@ input[type=email] {
   }
   .btn:hover {
     background-color: white;
-    border-color: rgb(255, 255, 255);
+    border-color: white;
     color: white;
   }
   .btn {
