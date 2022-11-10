@@ -444,7 +444,13 @@ input[type=email] {
     border-radius: 5rem;
     justify-content: center;
     display: flex;
-    background-color: rgb(128, 64, 0);
+    background-color: white;
+  }
+  footer a:hover {
+    background-color: white;
+    font-weight: bold;
+    transform: scale(1.4, 1.4);
+    transition: 0.4s;
   }
   .btn:hover {
     background-color: white;
