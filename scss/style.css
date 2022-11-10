@@ -431,6 +431,10 @@ input[type=email] {
     margin: auto;
     background-color: #ccc;
   }
+  .video {
+    width: 80%;
+    height: 30rem;
+  }
   .menuFooter {
     display: flex;
     flex-direction: row;
@@ -454,8 +458,8 @@ input[type=email] {
   }
   .btn:hover {
     background-color: white;
-    border-color: white;
-    color: white;
+    border-color: rgb(128, 64, 0);
+    color: rgb(128, 64, 0);
   }
   .btn {
     border-color: rgba(255, 255, 255, 0);

@@ -236,7 +236,7 @@ footer {
                 a:hover {
                     opacity: 60%;
                     transition: 0.5s;
-                    color: $negro;
+                    color:$negro;
                 }
 
                 a {
@@ -493,7 +493,10 @@ footer {
         margin: auto;
         background-color: #ccc;
     }
-
+    .video {
+        width: 80%;
+        height: 30rem;
+    }
 
     .menuFooter {
         display: flex;
@@ -521,8 +524,8 @@ footer {
 
     .btn:hover {
         background-color: $blanco;
-        border-color: $blanco;
-        color: $blanco;
+        border-color: $principal;
+        color: $principal;
     }
 
     .btn {
