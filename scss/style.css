@@ -18,9 +18,9 @@ form input[type=text],
 form input[type=email] {
   width: 55%;
   padding: 3% 5%;
-  border: 1px solid white;
+  border: 1px solid rgba(241, 241, 241, 0.486);
   border-radius: 5%;
-  background-color: white;
+  background-color: rgba(241, 241, 241, 0.486);
   margin: 3% 0%;
   display: inline-block;
 }
@@ -31,7 +31,7 @@ form input[type=submit] {
   border: 0.2rem solid;
   border-radius: 7%;
   display: block;
-  color: white;
+  color: rgba(241, 241, 241, 0.486);
   background-color: rgb(128, 64, 0);
 }
 form input[type=submit]:hover {
@@ -40,9 +40,9 @@ form input[type=submit]:hover {
 form textarea {
   width: 100%;
   height: 10rem;
-  border: 1rem solid white;
+  border: 1rem solid rgba(241, 241, 241, 0.486);
   border-radius: 3px;
-  background-color: white;
+  background-color: rgba(241, 241, 241, 0.486);
   margin: 1rem 0;
   resize: vertical;
   display: block;
@@ -50,7 +50,7 @@ form textarea {
 
 footer {
   grid-area: piePagina;
-  background-color: white;
+  background-color: rgba(241, 241, 241, 0.486);
   bottom: 0;
 }
 
@@ -107,7 +107,7 @@ footer {
 
 .sectionSomos {
   display: grid;
-  background-color: white;
+  background-color: rgba(241, 241, 241, 0.486);
   grid-template-areas: "txtSomos   txtSomos    txtSomos" "fotoMatriz dirMatriz   txtMatriz" "fotoSerena dirSerena   txtSerena" "fotoValpo  dirValpo    txtValpo";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr 2fr;
@@ -115,7 +115,7 @@ footer {
 
 .txtSomos {
   grid-area: txtSomos;
-  background-color: white;
+  background-color: rgba(241, 241, 241, 0.486);
   font-size: 1.2rem;
   color: rgb(128, 64, 0);
   padding: 1rem;
@@ -178,7 +178,7 @@ footer {
   padding: 5%;
   border-radius: 5%;
   margin: auto;
-  background-color: #ccc;
+  background-color: rgba(241, 241, 241, 0.486);
 }
 
 .menuFooter {
@@ -195,7 +195,7 @@ footer {
   border-radius: 5rem;
   justify-content: center;
   display: flex;
-  background-color: white;
+  background-color: rgba(241, 241, 241, 0.486);
 }
 
 .fotoProd {
@@ -233,8 +233,11 @@ footer {
     background-color: rgb(255, 205, 154);
     border-radius: 15%;
   }
+  .container-fluid {
+    background-color: rgba(241, 241, 241, 0.486);
+  }
   nav {
-    background-color: white;
+    background-color: rgba(241, 241, 241, 0.486);
   }
   nav ul li a:hover {
     opacity: 60%;
@@ -283,7 +286,7 @@ footer {
 input[type=email] {
     width: 55%;
     padding: 3% 5%;
-    border: 1px solid white;
+    border: 1px solid rgba(241, 241, 241, 0.486);
     border-radius: 5%;
     background-color: rgba(241, 241, 241, 0.486);
     margin: 3% 0%;
@@ -296,7 +299,7 @@ input[type=email] {
     border: 0.2rem solid;
     border-radius: 7%;
     display: block;
-    color: #fff;
+    color: rgba(241, 241, 241, 0.486);
     background-color: rgb(128, 64, 0);
   }
   input[type=submit]:hover {
@@ -305,16 +308,16 @@ input[type=email] {
   textarea {
     width: 100%;
     height: 10rem;
-    border: 1rem solid white;
+    border: 1rem solid rgba(241, 241, 241, 0.486);
     border-radius: 3px;
-    background-color: white;
+    background-color: rgba(241, 241, 241, 0.486);
     margin: 1rem 0;
     resize: vertical;
     display: block;
   }
   footer {
     grid-area: piePagina;
-    background-color: white;
+    background-color: rgba(241, 241, 241, 0.486);
   }
   .formatoCentral {
     display: grid;
@@ -331,10 +334,10 @@ input[type=email] {
             animation-iteration-count: infinite;
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
   }
   .card {
     margin-bottom: 4rem;
@@ -397,7 +400,7 @@ input[type=email] {
   }
   .txtSomos {
     grid-area: txtSomos;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(241, 241, 241, 0.486);
     font-size: 2.5rem;
     color: rgb(128, 64, 0);
     padding: 1rem;
@@ -476,7 +479,7 @@ input[type=email] {
     transition: 0.4s;
   }
   .btn:hover {
-    background-color: white;
+    background-color: rgba(241, 241, 241, 0.486);
     border-color: rgb(128, 64, 0);
     color: rgb(128, 64, 0);
   }
@@ -510,37 +513,61 @@ input[type=email] {
     opacity: 40%;
   }
   @-webkit-keyframes un_efecto {
-    1% {
+    10% {
       color: black;
     }
-    35% {
-      color: grey;
+    20% {
+      color: rgba(241, 241, 241, 0.486);
+    }
+    30% {
+      color: red;
     }
     40% {
-      color: white;
+      color: blue;
     }
-    45% {
-      color: grey;
+    50% {
+      color: orange;
+    }
+    60% {
+      color: greenyellow;
+    }
+    70% {
+      color: blueviolet;
     }
     80% {
-      color: black;
+      color: cyan;
+    }
+    90% {
+      color: fuchsia;
     }
   }
   @keyframes un_efecto {
-    1% {
+    10% {
       color: black;
     }
-    35% {
-      color: grey;
+    20% {
+      color: rgba(241, 241, 241, 0.486);
+    }
+    30% {
+      color: red;
     }
     40% {
-      color: white;
+      color: blue;
     }
-    45% {
-      color: grey;
+    50% {
+      color: orange;
+    }
+    60% {
+      color: greenyellow;
+    }
+    70% {
+      color: blueviolet;
     }
     80% {
-      color: black;
+      color: cyan;
+    }
+    90% {
+      color: fuchsia;
     }
   }
 }/*# sourceMappingURL=style.css.map */

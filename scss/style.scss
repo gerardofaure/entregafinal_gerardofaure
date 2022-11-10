@@ -9,7 +9,7 @@ mobile first */
 .nav-link {
 
     margin: 0.2rem;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
     background-color: $terciario;
     border-radius: 15%;
@@ -22,7 +22,7 @@ form {
     input[type="email"] {
         width: 55%;
         padding: 3% 5%;
-        border: 1px solid white;
+        border: 1px solid $blanco;
         border-radius: 5%;
         background-color: $blanco;
         margin: 3% 0%;
@@ -47,7 +47,7 @@ form {
     textarea {
         width: 100%;
         height: 10rem;
-        border: 1rem solid white;
+        border: 1rem solid $blanco;
         border-radius: 3px;
         background-color: $blanco;
         margin: 1rem 0;
@@ -181,15 +181,17 @@ footer {
     grid-area: txtValpo;
     font-size: 0.8rem;
 }
+
 .carousel-inner {
     padding-top: 8rem;
 }
+
 .formu {
     width: 90%;
     padding: 5%;
     border-radius: 5%;
     margin: auto;
-    background-color: #ccc;
+    background-color: $blanco;
 }
 
 .menuFooter {
@@ -206,7 +208,7 @@ footer {
     border-radius: 5rem;
     justify-content: center;
     display: flex;
-    background-color: white;
+    background-color: $blanco;
 }
 
 .fotoProd {
@@ -239,13 +241,17 @@ footer {
 @media screen and (min-width: 768px) {
 
     .nav-link {
-    
-            margin: 0.2rem;
-            font-weight: bold;
-            text-align: center;
-            background-color: $terciario;
-            border-radius: 15%;
-        }
+
+        margin: 0.2rem;
+        font-weight: bold;
+        text-align: center;
+        background-color: $terciario;
+        border-radius: 15%;
+    }
+
+    .container-fluid {
+        background-color: $blanco;
+    }
 
     nav {
         background-color: $blanco;
@@ -256,7 +262,7 @@ footer {
                 a:hover {
                     opacity: 60%;
                     transition: 0.5s;
-                    color:$negro;
+                    color: $negro;
                 }
 
                 a {
@@ -311,9 +317,9 @@ footer {
     input[type="email"] {
         width: 55%;
         padding: 3% 5%;
-        border: 1px solid white;
+        border: 1px solid $blanco;
         border-radius: 5%;
-        background-color: rgba(241, 241, 241, 0.486);
+        background-color: $blanco;
         margin: 3% 0%;
         display: inline-block;
     }
@@ -325,7 +331,7 @@ footer {
         border: 0.2rem solid;
         border-radius: 7%;
         display: block;
-        color: #fff;
+        color: $blanco;
         background-color: $principal;
     }
 
@@ -336,7 +342,7 @@ footer {
     textarea {
         width: 100%;
         height: 10rem;
-        border: 1rem solid white;
+        border: 1rem solid $blanco;
         border-radius: 3px;
         background-color: $blanco;
         margin: 1rem 0;
@@ -347,7 +353,7 @@ footer {
 
     footer {
         grid-area: piePagina;
-        background-color: white;
+        background-color: $blanco;
 
 
     }
@@ -367,8 +373,8 @@ footer {
         animation-name: un_efecto;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 1s;
+        animation-duration: 10s;
+        animation-delay: 0s;
     }
 
 
@@ -427,7 +433,7 @@ footer {
 
     .sectionSomos {
         display: grid;
-        background-color: rgba(241, 241, 241, 0.486);
+        background-color: $blanco;
         grid-template-areas: "txtSomos   txtSomos    txtSomos"
             "fotoMatriz dirMatriz   txtMatriz"
             "fotoSerena dirSerena   txtSerena"
@@ -450,7 +456,7 @@ footer {
 
     .txtSomos {
         grid-area: txtSomos;
-        background-color: rgba(255, 255, 255, 0);
+        background-color: $blanco;
         font-size: 2.5rem;
         color: $principal;
         padding: 1rem;
@@ -513,6 +519,7 @@ footer {
         margin: auto;
         background-color: #ccc;
     }
+
     .video {
         width: 80%;
         height: 30rem;
@@ -586,22 +593,38 @@ footer {
     }
 
     @keyframes un_efecto {
-        1% {
-            color: black;
+        10% {
+            color: $negro;
         }
 
-        35% {
-            color: grey;
+        20% {
+            color: $blanco;
+        }
+
+        30% {
+            color: red;
         }
 
         40% {
-            color: white;
+            color: blue;
         }
 
-        45% {
-            color: grey;
+        50% {
+            color: orange;
+        }
+
+        60% {
+        color: greenyellow;
+        }
+
+        70% {
+        color: blueviolet;
         }
 
         80% {
-            color: black;
+        color: cyan;
+        }
+
+        90% {
+        color: fuchsia;
         }}}
